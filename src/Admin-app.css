@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-container {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+}
+
+.admin-content-wrapper {
+  display: grid;
+  grid-template-columns: 240px auto;
+  margin-bottom: 100px;
+  column-gap: 20px;
+}
+
+.menu-wrapper {
+  margin-top: 20px;
+}
+
+.form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  /*border: 1px solid grey;*/
+  padding: 20px;
+  padding-right: 30px;
+}
+
+.form-heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+}
+
+.rich-text-editor {
+  margin-top: 20px;
+  height: 400px;
+}
+
+.container Item {
+  border-radius: 0px;
+}
